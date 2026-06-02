@@ -1,4 +1,4 @@
-#Human-Activity-Recognition
+# Human-Activity-Recognition
 Written in Python and employing transfer learning with the ResNet50 model, our team recorded short gifs of ourselves performing referee signals in Baseball to train our AI model
 in hopes of successfully classifying our actions. Our dataset was spliced into individual gifs from one long video, ensuring each splice is of equal length and grouped by their respective action.
 When incorporating our transfered model, ResNet50, we froze our layers and added 2 dense layers following it, one with 256 neurons using the ReLu activation function,
